@@ -13,6 +13,8 @@
 		DD79ADD42A7DA065002A196F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD79ADD22A7DA065002A196F /* Main.storyboard */; };
 		DD79ADD62A7DA067002A196F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD79ADD52A7DA067002A196F /* Assets.xcassets */; };
 		DD79ADD92A7DA067002A196F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD79ADD72A7DA067002A196F /* LaunchScreen.storyboard */; };
+		DD79ADE12A7DA3E1002A196F /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD79ADE02A7DA3E1002A196F /* HomeTableViewHeader.xib */; };
+		DD79ADE32A7DA650002A196F /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD79ADE22A7DA650002A196F /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD79ADD52A7DA067002A196F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD79ADD82A7DA067002A196F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD79ADDA2A7DA067002A196F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD79ADE02A7DA3E1002A196F /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		DD79ADE22A7DA650002A196F /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DD79ADD52A7DA067002A196F /* Assets.xcassets */,
 				DD79ADD72A7DA067002A196F /* LaunchScreen.storyboard */,
 				DD79ADDA2A7DA067002A196F /* Info.plist */,
+				DD79ADE02A7DA3E1002A196F /* HomeTableViewHeader.xib */,
+				DD79ADE22A7DA650002A196F /* HomeTableViewHeader.swift */,
 			);
 			path = "AluraViagens Storyboard";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD79ADD92A7DA067002A196F /* LaunchScreen.storyboard in Resources */,
+				DD79ADE12A7DA3E1002A196F /* HomeTableViewHeader.xib in Resources */,
 				DD79ADD62A7DA067002A196F /* Assets.xcassets in Resources */,
 				DD79ADD42A7DA065002A196F /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD79ADD12A7DA065002A196F /* ViewController.swift in Sources */,
+				DD79ADE32A7DA650002A196F /* HomeTableViewHeader.swift in Sources */,
 				DD79ADCD2A7DA065002A196F /* AppDelegate.swift in Sources */,
 				DD79ADCF2A7DA065002A196F /* SceneDelegate.swift in Sources */,
 			);
